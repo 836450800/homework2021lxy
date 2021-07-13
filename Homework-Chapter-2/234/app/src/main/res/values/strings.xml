@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practice1</string>
+    <string name="baidu">Baidu</string>
+    <string name="new_activity">New Activity</string>
+    <string name="call">Call</string>
+    <string name="New">新的Activity</string>
+</resources>
