@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#add8e6"
+    tools:context=".MainActivity">
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/image"
+    android:background="@drawable/douyin"
+       />
+    <Button
+        android:id="@+id/BtnUpload"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="196dp"
+        android:backgroundTint="#ffffff"
+        android:drawableTop="@drawable/btnpic1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/BtnRecord"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="196dp"
+        android:backgroundTint="#ffffff"
+        android:drawableTop="@drawable/btnpic2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/BtnView"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="视频列表"
+        android:textColor="#ffffff"
+        android:backgroundTint="#A8A8A8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/BtnUpload"
+       app:layout_constraintRight_toLeftOf="@id/BtnRecord"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
